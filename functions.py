@@ -14,8 +14,8 @@ def palindrome_sentence(pal_sentence):
         if char.isalnum():
             string += char
     print(string)
-    return string[::-1].casefold() == string.casefold()
-
+    # return string[::-1].casefold() == string.casefold()
+    return is_palindrome(string)
 
 word = input('Please enter word to check: ')
 if palindrome_sentence(word):
