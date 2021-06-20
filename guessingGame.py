@@ -30,7 +30,3 @@ while guess != answer:
         elif guess < answer:
             print("Please guess higher")
         guess = int(input())
-        # if guess == answer:
-        #     print("Well done, you guessed it")
-        # else:
-        #     print("Sorry you have not guessed correctly")
